@@ -17,8 +17,13 @@
   },
   "homepage": "https://github.com/ArturGrigoryan/webTool#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "koa": "^2.3.0",
     "koa-passport": "^3.0.0",
-    "koa-router": "^7.2.1"
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.0.2",
+    "path": "^0.12.7"
   }
 }
