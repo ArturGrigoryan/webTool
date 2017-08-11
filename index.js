@@ -1,8 +1,4 @@
-'use strict';
+const server = require("./app/server");
 
-const Router = require('koa-router');
-const router = new Router();
-
-router.get('/home', function(ctx){
-    console.log(ctx);
-});
+server.listen(3000);
+console.log("Server running on location 3000");
