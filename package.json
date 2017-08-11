@@ -1,0 +1,24 @@
+{
+  "name": "webtool",
+  "version": "1.0.0",
+  "description": "web site created for more easly use other web sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturGrigoryan/webTool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturGrigoryan/webTool/issues"
+  },
+  "homepage": "https://github.com/ArturGrigoryan/webTool#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-passport": "^3.0.0",
+    "koa-router": "^7.2.1"
+  }
+}
