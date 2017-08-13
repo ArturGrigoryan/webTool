@@ -2,7 +2,7 @@
 
 const config = {
     port: 3000,
-    koaSecret: 'Some very strong key goes here, yo!',
+    /*koaSecret: 'Some very strong key goes here, yo!',
     google: {
         clientID: '994707594746-124d3k6o679gs7m4iielmg86levi35sk.apps.googleusercontent.com',
         clientSecret: 'PuBpMyMQb3MWFlrG1dkbESfv',
@@ -10,9 +10,9 @@ const config = {
         accessType: 'offline',
         scope: ['https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/youtube'],
         approvalPrompt: 'force'
-    },
+    },*/
     database: {
-        name: 'playlist-store',
+        name: 'webtools',
         username: 'root',
         password: '',
         host: 'localhost',
