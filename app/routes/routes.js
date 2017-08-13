@@ -7,4 +7,8 @@ router.get('/home', async function(ctx){
     await ctx.render('home', {name: 'Artur'});
 });
 
+router.get('/fb', async function(ctx){
+    await ctx.render('config-fb', {name: 'Artur'});
+});
+
 module.exports = router;
